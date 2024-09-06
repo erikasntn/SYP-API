@@ -2,11 +2,10 @@
 {
     public class Usuario
     {
-        // Propriedades privadas
         protected string Nome;
         protected string Email;
         protected string Senha;
-        // Construtor
+        
         public Usuario(string nome, string email, string senha)
         {
             Nome = nome;
@@ -14,7 +13,6 @@
             Senha = senha;
         }
 
-        // Métodos Getters e Setters (opcional, dependendo das suas necessidades)
         public string GetNome()
         {
             return Nome;
