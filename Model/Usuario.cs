@@ -3,9 +3,9 @@
     public class Usuario
     {
         // Propriedades privadas
-        private string Nome;
-        private string Email;
-        private string Senha;
+        protected string Nome;
+        protected string Email;
+        protected string Senha;
         // Construtor
         public Usuario(string nome, string email, string senha)
         {
